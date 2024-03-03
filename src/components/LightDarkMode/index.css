@@ -1,0 +1,70 @@
+/* Write your CSS here */
+.container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.darkcontainer {
+  width: 50%;
+  border-radius: 14px;
+  border-width: 6px;
+  border-color: #000000;
+  border-style: solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  background-color: #000000;
+}
+.lightcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  border-color: #000000;
+  width: 50%;
+  border-radius: 14px;
+  border-width: 4px;
+  border-style: solid;
+  padding: 16px;
+}
+
+.whitecolor {
+  font-size: 45px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+.blackcolor {
+  font-size: 45px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+}
+.button {
+  width: 160px;
+  padding: 12px;
+  border-color: #000000;
+  border-style: solid;
+  text-align: center;
+  border-radius: 12px;
+  background-color: #ffffff;
+}
+
+@media screen and (max-width: 576px) {
+  .whitecolor {
+    font-size: 18px;
+  }
+  .blackcolor {
+    font-size: 18px;
+  }
+  .button {
+    width: 90px;
+    font-size: 12px;
+  }
+}
